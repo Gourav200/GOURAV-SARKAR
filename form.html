@@ -1,0 +1,138 @@
+<!doctype html>
+<head>
+<title>gouravform</title>
+<style>
+*{
+box-sizing:border-box;
+}
+body{
+margin:0;
+padding:0;
+background:#ffff00 ;
+}
+.form1{
+margin:0;
+padding:0;
+background: linear-gradient(to bottom, #33ccff 0% ,#ff99cc 100% );
+line-height:1;
+width:500px;
+padding-top:100px;
+padding-bottom:100px;
+position:absolute;
+top:50%;
+left:70%;
+text-align:center;
+transform:translate(-50%,-50%);
+transition:0.25px;
+}
+h1{
+text-allign:centre;
+color:white;
+margin:auto;//refers the middle of a element
+font-family:sans-serif;
+font-weight:700px;
+font-size:50;
+text-transform:uppercase;
+text-decoration:underline;
+}
+#form{
+color:white;
+margin-top:300px;
+margin-left:100px;
+font-family:sans-serif;
+font-weight:500px;
+font-size:25;
+text-align:centre;
+cursor:pointer;
+}
+h2{
+color:black;
+margin-top:300px;
+margin-left:100px;
+font-family:sans-serif;
+font-weight:700px;
+font-size:70;
+text-transform:uppercase;
+text-decoration:underline;
+}
+h3{
+color:black;
+margin-top:-1px;
+margin-left:408px;
+font-family:sans-serif;
+font-weight:508px;
+font-size:50;
+}
+
+</style>
+</head>
+<body>
+<h2>
+CONTACT FORM
+</h2>
+<h3>
+       by:GOURAV SARKAR
+</h3>
+<br>
+<br>
+<div class="form1">
+<h1>
+CONTACT FORM
+</h1>
+<br>
+<br>
+<br>
+<form>
+<label style="frontsize:20px;text-align:center;"><b>Username</b></label>
+<br>
+<input type="text" placeholder="username"required>
+
+<br>
+<label style="frontsize:20px;text-align:center;"><b>Email id</b></label>
+<br>
+<input type="text" placeholder="email id"required>
+<br>
+<label for="psw"><b>Password</b></label>
+<br>
+<input type="password" placeholder="Enter Password" name="psw" required>
+<br>
+<label style="frontsize:20px;text-align:center;"><b>Select Gender</b></label>
+<br>
+<input type="radio" name="Gender"checked><label>MALE</label>
+<input type="radio" name="Gender"><label>FEMALE</label>
+<input type="radio" name="Gender"><label>NOT PREFARABLE</label>
+<br>
+<label style="frontsize:20px;text-align:center;"><b>Message-box</b></label>
+<br>
+<textarea placeholder="write your message here "></textarea>
+<br>
+<form action="/action_page.php">
+  <input type="file" id="myFile" name="filename">
+</form>
+<br>
+<label style="frontsize:20px;text-align:center;"><b>CATAGORY</b></label>
+<br>
+<Select>
+<option>FORM-A</option>
+<option>FORM-B</option>
+<option>FORM-C</option>
+<option>FORM-D</option>
+<option>FORM-E</option>
+<option>FORM-F</option>
+<option>FORM-G</option>
+</select>
+<br>
+<br>
+<button type="submit"
+onclick="alert('please fill all the docoments correctly');">Submit</button>
+<button type="reset">Reset</button>
+<br>
+<a href="https://google.com"
+onclick="alert('please fill the form correctly');">Check it for more information</a>
+
+</form>
+</div>
+
+</body>
+
+</html>
